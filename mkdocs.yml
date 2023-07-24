@@ -1,5 +1,7 @@
 site_name: All in Bits Onboarding
 theme:
+  logo: assets/aib-logo.png
+  favicon: assets/favicon.png
   name: material
   features:
     - navigation.instant
@@ -8,6 +10,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.path
+    - navigation.indexes
+    - navigation.footer
     - header.autohide
   palette: 
     # Palette toggle for light mode
