@@ -45,7 +45,7 @@ TL;DR:
 
 - Audience: Everyone.
 - Content: Description of the project and its current state. Links to other resources.
-- Template: [README.tmpl.md](documents/README.tmpl.md)
+- Template: [README.tmpl.md](./documents/README.tmpl.md)
 - Example: https://github.com/twbs/bootstrap/blob/v4-dev/README.md
 
 ### CONTRIBUTING.md
@@ -54,7 +54,7 @@ TL;DR:
 
 - Audience: Contributors.
 - Content: Steps necessary to modify the project, verify the changes, and contribute back to the project.
-- Template: [CONTRIBUTING.md](documents/CONTRIBUTING.md)
+- Template: [CONTRIBUTING.md](./documents/CONTRIBUTING.md)
 - Example: https://github.com/angular/angular.js/blob/master/README.md
 
 ### Reference Material
