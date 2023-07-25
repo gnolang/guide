@@ -33,7 +33,7 @@ existing team-specific channels.
 - **\#gno-core-tech** - The most important channel engineering-wise. We share our discussions here
 - **\#game-of-realms** - A channel for discussing the ongoing [Game of Realms competition](#)
 - **\#gno-by-example** - Channel for coordinating changes and improvements for [Gno By Example](https://gno-by-example.com)
-- **\#gno-docs** - One-stop-shop for discussing the [official Gno.land documentation](https://gno.land) <!-- TODO change to docs.gno.land when ready -->
+- **\#gno-docs** - One-stop-shop for discussing the [official Gno.land documentation](https://docs.gno.land)
 - **\#gno-ide** - The Gno IDE team primary communication channel
 - **\#gno-infra** - Chambers of the magic DevOps magician Albert, where we discuss infrastructure related topics regarding Gno
 - **\#gno-performances** - Slack channel connected to a Gno performance testing tool called Supernova, which outputs daily TPS reports
