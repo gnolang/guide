@@ -37,7 +37,7 @@ jobs:
         - name: Validate generated HTML files
           working-directory: .
           run: |
-            linkcheckMarkdown -v ./docs
+            linkcheckMarkdown -v -r ./docs
         # On push to main or release branch, deploy docs
         - name: Set up git author
           if: ${{ inputs.deploy }}
