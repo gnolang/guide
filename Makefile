@@ -1,5 +1,7 @@
 #-include .env
 
+PROJECTNAME='aib-guide'
+
 # Make is verbose in Linux. Make it silent.
 MAKEFLAGS += --silent
 
