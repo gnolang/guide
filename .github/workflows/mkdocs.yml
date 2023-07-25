@@ -42,7 +42,7 @@ jobs:
       - name: Validate generated HTML files
         working-directory: .
         run: |
-          docker run -v $(pwd):/test --rm wjdp/htmltest --conf .htmltest.yml
+          mkdocs-linkcheck -ext md -r -v .
       # On push to main or release branch, deploy docs
       - name: Set up git author
         run: |
