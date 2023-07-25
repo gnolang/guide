@@ -6,8 +6,8 @@ This guide documents development conventions that are language-independent, so t
 
 We have additional conventions for each language:
 
-* [Go](go.md)
-* [Python](python.md)
+* [Go](./go.md)
+* [Python](./python.md)
 
 ## Operating System Support
 
@@ -27,7 +27,7 @@ We have additional conventions for each language:
 
 ## Others
 
-Refer to the [licensing](licensing.md), [repositories](repositories.md), and [documentation](documentation.md) guides for other important information you should know when creating new projects.
+Refer to the [licensing](./licensing.md), [repositories](./repositories.md), and [documentation](./documentation.md) guides for other important information you should know when creating new projects.
 
 ## Development Environments
 
