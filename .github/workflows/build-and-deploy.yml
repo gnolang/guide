@@ -39,7 +39,7 @@ jobs:
         - name: Validate generated HTML files
           working-directory: .
           run: |
-            linkcheckmd -v ./docs
+            linkcheckMarkdown -v ./docs
         # On push to main or release branch, deploy docs
         - name: Set up git author
           run: |
