@@ -19,7 +19,7 @@
     
     
       
-        <title>Go - All in Bits Onboarding</title>
+        <title>Go Development Conventions - All in Bits Onboarding</title>
       
     
     
@@ -70,6 +70,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#go-development-conventions" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -104,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Go
+              Go Development Conventions
             
           </span>
         </div>
@@ -562,10 +567,140 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Go Development Conventions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Go
+        Go Development Conventions
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-go-versions" class="md-nav__link">
+    Supported Go Versions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependency-management" class="md-nav__link">
+    Dependency Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-generation" class="md-nav__link">
+    Code Generation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    Testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-handling" class="md-nav__link">
+    Error handling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    Logging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-libraries" class="md-nav__link">
+    Other libraries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+    <nav class="md-nav" aria-label="Best Practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#group-code-blocks-with-blank-lines" class="md-nav__link">
+    Group code blocks with blank lines
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naming" class="md-nav__link">
+    Naming
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cli" class="md-nav__link">
+    CLI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    Configuration
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1070,6 +1205,120 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-go-versions" class="md-nav__link">
+    Supported Go Versions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependency-management" class="md-nav__link">
+    Dependency Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-generation" class="md-nav__link">
+    Code Generation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    Testing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-handling" class="md-nav__link">
+    Error handling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    Logging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-libraries" class="md-nav__link">
+    Other libraries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    Best Practices
+  </a>
+  
+    <nav class="md-nav" aria-label="Best Practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#group-code-blocks-with-blank-lines" class="md-nav__link">
+    Group code blocks with blank lines
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naming" class="md-nav__link">
+    Naming
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cli" class="md-nav__link">
+    CLI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    Configuration
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1084,9 +1333,75 @@
                   
 
 
-  <h1>Go</h1>
-
-
+<h1 id="go-development-conventions">Go Development Conventions</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This guide documents development conventions for Go at AiB. Check <a href="../conventions/">general conventions</a> for language-independent conventions that are also applicable to Go projects.</p>
+<h2 id="supported-go-versions">Supported Go Versions</h2>
+<ul>
+<li>Our <strong>libraries</strong> support the latest two stable major versions of Go. Both versions should be included in CI.</li>
+<li>Our <strong>applications</strong> support only the latest <a href="https://golang.org/dl/#stable">stable</a> Go version.</li>
+</ul>
+<h2 id="dependency-management">Dependency Management</h2>
+<p>If your project is a <strong>library</strong> or an <strong>application</strong>:</p>
+<ul>
+<li>Use <a href="https://github.com/golang/go/wiki/Modules">modules</a> to manage dependencies.</li>
+<li>Do not check in the <code>vendor</code> directory into git.</li>
+</ul>
+<h2 id="code-generation">Code Generation</h2>
+<ul>
+<li>All generated code should be always processed by <code>gofmt</code>.</li>
+<li>Generated code should have a <code>// Code generated ... DO NOT EDIT.</code> comment before the package clause, but not attached to it (see <a href="https://github.com/golang/go/issues/13560#issuecomment-288457920">convention</a>).</li>
+</ul>
+<h2 id="docker">Docker</h2>
+<ul>
+<li>If you use alpine-based images, your binaries need to be built with <code>CGO_ENABLED=0</code>. If your project uses <code>cgo</code>, you will have to use alpine for the build of binaries for Docker.</li>
+</ul>
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Use <a href="https://github.com/stretchr/testify">testify</a>.</li>
+</ul>
+<h2 id="error-handling">Error handling</h2>
+<p>Use the standard <code>errors</code> package and wrap errors using <code>%w</code> when needed.</p>
+<h2 id="logging">Logging</h2>
+<ul>
+<li>Use logging in your applications.</li>
+<li>Use <a href="https://github.com/rs/zerolog">zerlog</a>.</li>
+</ul>
+<h2 id="other-libraries">Other libraries</h2>
+<div class="admonition danger">
+<p class="admonition-title">Missing info</p>
+<p>TODO: fill with other generally used libraries.</p>
+</div>
+<h2 id="best-practices">Best Practices</h2>
+<ul>
+<li>Use <code>gofmt</code>, <code>goimports</code>, <code>go vet</code>.</li>
+<li>Use <code>golangci-lint</code>. Configuration example <a href="https://github.com/gnolang/gno/blob/master/.github/golangci.yml">here</a></li>
+<li>Follow community well-established best practices: <a href="https://golang.org/doc/effective_go.html">Effective Go</a> and <a href="https://github.com/golang/go/wiki/CodeReviewComments">Go Code Review Comments</a>.</li>
+</ul>
+<h3 id="group-code-blocks-with-blank-lines">Group code blocks with blank lines</h3>
+<p>To improve readability, we use single blank lines to separate logic blocks of code inside functions.
+A blank line is usually added after the end of any control structure, too.</p>
+<h3 id="naming">Naming</h3>
+<p>For naming: <a href="https://github.com/uber-go/guide/blob/master/style.md">follow Uber Go style guide</a></p>
+<ul>
+<li><a href="https://github.com/uber-go/guide/blob/master/style.md#error-naming">Errors</a></li>
+<li><a href="https://github.com/uber-go/guide/blob/master/style.md#package-names">Packages</a></li>
+<li>Prefer full names (e.g. <code>Repository</code>, not <code>Repo</code>).</li>
+</ul>
+<h2 id="cli">CLI</h2>
+<ul>
+<li>Put sources for your executable commands in <code>cmd/&lt;command-name&gt;/</code>, with the <code>main</code> function in <code>cmd/&lt;command-name&gt;/main.go</code>.</li>
+<li>We use <a href="github.com/peterbourgon/ff">ff</a> extensively for CLI options parsing.</li>
+<li>Implement commands in a subpackage.</li>
+</ul>
+<h2 id="configuration">Configuration</h2>
+<ul>
+<li>Use environment variables for configuration.</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Missing info</p>
+<p>TODO: Add other possible configurations</p>
+</div>
 
 
 
