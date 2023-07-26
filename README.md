@@ -35,7 +35,7 @@ To contribute to this repository, follow these general guidelines:
 Our team will review your contribution as soon as possible. We value constructive feedback, bug reports, and any other suggestions that can help enhance our projects.
 
 We rely on MkDocs to structure our onboarding guides. To run the documentation locally, you need to have `Docker` installed.
-Once done, from the `/onboarding` folder run:
+Once done, run:
 ```bash
 make serve
 ```
