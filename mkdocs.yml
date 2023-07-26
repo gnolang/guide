@@ -27,6 +27,10 @@ theme:
         name: Switch to light mode
 plugins:
   - search
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra:
   generator: false
   version:
