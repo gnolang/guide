@@ -47,6 +47,7 @@ Use the standard `errors` package and wrap errors using `%w` when needed.
 ## Best Practices
 
 * Use `gofmt`, `goimports`, `go vet`.
+* Use `golangci-lint`. Configuration example [here](https://github.com/gnolang/gno/blob/master/.github/golangci.yml)
 * Follow community well-established best practices: [Effective Go](https://golang.org/doc/effective_go.html) and [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
 
 ### Group code blocks with blank lines
@@ -56,6 +57,10 @@ A blank line is usually added after the end of any control structure, too.
 
 ### Naming
 
+For naming: [follow Uber Go style guide](https://github.com/uber-go/guide/blob/master/style.md)
+
+* [Errors](https://github.com/uber-go/guide/blob/master/style.md#error-naming)
+* [Packages](https://github.com/uber-go/guide/blob/master/style.md#package-names)
 * Prefer full names (e.g. `Repository`, not `Repo`).
 
 ## CLI
