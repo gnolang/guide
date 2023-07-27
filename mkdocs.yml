@@ -13,6 +13,7 @@ theme:
     - navigation.indexes
     - navigation.footer
     - header.autohide
+    - toc.integrate
   palette: 
     # Palette toggle for light mode
     - scheme: default
