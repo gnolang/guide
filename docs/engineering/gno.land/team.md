@@ -9,7 +9,7 @@
 - [@piux2](https://github.com/piux2) - Ray Qin
 - [@waymobetta](https://github.com/waymobetta) - Jon Roethke
 - [@tbruyelle](https://github.com/tbruyelle) - Thomas Bruyelle
-- [@albttx](https://github.com/albttx) - Albert Le Batteux 
+- [@albttx](https://github.com/albttx) - Albert Le Batteux
 - [@ajnavarro](https://github.com/ajnavarro) - Antonio Navarro
 - [@zivkovicmilos](https://github.com/zivkovicmilos) - Milos Zivkovic
 
@@ -32,6 +32,6 @@
 - [@zxxma](https://github.com/zxxma) - Antoine
 - [@n0izn0iz](https://github.com/n0izn0iz) - Norman
 - [@JK Gopher](https://github.com/go7066)
-- [@hthieu1110](https://github.com/hthieu1110) 
-- [@omniwired](https://github.com/omniwired) - Juan 
+- [@hthieu1110](https://github.com/hthieu1110)
+- [@omniwired](https://github.com/omniwired) - Juan
 - [@Ferryman](https://github.com/ferryman/) - Mehdi

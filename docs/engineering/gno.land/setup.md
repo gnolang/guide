@@ -10,6 +10,7 @@ Below, you can find the general project requirements:
 ## Local repo setup
 
 To begin, clone the repository locally using the following command:
+
 ```bash
 git clone https://github.com/gnolang/gno.git
 ```
@@ -43,6 +44,7 @@ make test
 ```
 
 This will execute the tests in the following project components:
+
 - tm2
 - gnovm
 - gno.land
@@ -50,8 +52,8 @@ This will execute the tests in the following project components:
 
 ## Running (Gno) tests
 
-Before running `*_test.gno` test files, ensure you have the gno binary installed. If not, follow the steps in [Building & installing binaries from `gno.land`](#building--installing-from-gnoland).
-
+Before running `*_test.gno` test files, ensure you have the gno binary installed. If not, follow the steps
+in [Building & installing binaries from `gno.land`](#building--installing-from-gnoland).
 
 After installing the `gno` binary, you can execute the gno command as follows:
 
@@ -60,11 +62,13 @@ gno --help
 ```
 
 To test a specific package, run:
+
 ```bash
 gno test path/to/package
 ```
 
-Additionally, you might need to specify the path to the root-dir in the gno test command. This is the absolute path to the locally cloned gno repo. For example:
+Additionally, you might need to specify the path to the root-dir in the gno test command. This is the absolute path to
+the locally cloned gno repo. For example:
 
 ```bash
 gno test --root-dir /Users/zmilos/Work/gno path/to/package
@@ -72,7 +76,8 @@ gno test --root-dir /Users/zmilos/Work/gno path/to/package
 
 ## Running the linter
 
-We use the `golangci-lint` linter for both our CI and local linting. Once you ensure it is installed, run the following command:
+We use the `golangci-lint` linter for both our CI and local linting. Once you ensure it is installed, run the following
+command:
 
 ```bash
 make lint 
@@ -80,9 +85,11 @@ make lint
 
 ## Clearing out local data
 
-As the local blockchain node runs, it creates on-disk temporary storage. To clear these subdirectories, run the following commands:
+As the local blockchain node runs, it creates on-disk temporary storage. To clear these subdirectories, run the
+following commands:
 
 From the `./gno.land` subfolder:
+
 ```bash
 make clean && make fclean
 ```

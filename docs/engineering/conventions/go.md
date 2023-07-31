@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This guide documents development conventions for Go at AiB. Check [general conventions](conventions.md) for language-independent conventions that are also applicable to Go projects.
+This guide documents development conventions for Go at AiB. Check [general conventions](conventions.md) for
+language-independent conventions that are also applicable to Go projects.
 
 ## Supported Go Versions
 
@@ -19,11 +20,13 @@ If your project is a **library** or an **application**:
 ## Code Generation
 
 * All generated code should be always processed by `gofmt`.
-* Generated code should have a `// Code generated ... DO NOT EDIT.` comment before the package clause, but not attached to it (see [convention](https://github.com/golang/go/issues/13560#issuecomment-288457920)).
+* Generated code should have a `// Code generated ... DO NOT EDIT.` comment before the package clause, but not attached
+  to it (see [convention](https://github.com/golang/go/issues/13560#issuecomment-288457920)).
 
 ## Docker
 
-* If you use alpine-based images, your binaries need to be built with `CGO_ENABLED=0`. If your project uses `cgo`, you will have to use alpine for the build of binaries for Docker.
+* If you use alpine-based images, your binaries need to be built with `CGO_ENABLED=0`. If your project uses `cgo`, you
+  will have to use alpine for the build of binaries for Docker.
 
 ## Testing
 
@@ -48,7 +51,8 @@ Use the standard `errors` package and wrap errors using `%w` when needed.
 
 * Use `gofmt`, `goimports`, `go vet`.
 * Use `golangci-lint`. Configuration example [here](https://github.com/gnolang/gno/blob/master/.github/golangci.yml)
-* Follow community well-established best practices: [Effective Go](https://golang.org/doc/effective_go.html) and [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
+* Follow community well-established best practices: [Effective Go](https://golang.org/doc/effective_go.html)
+  and [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
 
 ### Group code blocks with blank lines
 
@@ -65,7 +69,8 @@ For naming: [follow Uber Go style guide](https://github.com/uber-go/guide/blob/m
 
 ## CLI
 
-* Put sources for your executable commands in `cmd/<command-name>/`, with the `main` function in `cmd/<command-name>/main.go`.
+* Put sources for your executable commands in `cmd/<command-name>/`, with the `main` function
+  in `cmd/<command-name>/main.go`.
 * We use [ff](github.com/peterbourgon/ff) extensively for CLI options parsing.
 * Implement commands in a subpackage.
 

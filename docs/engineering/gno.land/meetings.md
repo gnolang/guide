@@ -1,4 +1,5 @@
-The Gno.land team has established a well-structured meeting schedule to ensure effective communication and collaboration among team members and contributors.
+The Gno.land team has established a well-structured meeting schedule to ensure effective communication and collaboration
+among team members and contributors.
 
 ## Regular Team Meetings
 
@@ -23,23 +24,27 @@ The Gno.land team has established a well-structured meeting schedule to ensure e
 
 ## Contributor Meetings
 
-The following meetings will alternate each Wednesday, ensuring efficient communication between contributors and the core team:
+The following meetings will alternate each Wednesday, ensuring efficient communication between contributors and the core
+team:
 
 1. **Public Gno.land Developer Call (1hr)**
-    - Purpose: Bi-weekly call involving GitHub contributors and the core team to facilitate open discussions and collaboration.
+    - Purpose: Bi-weekly call involving GitHub contributors and the core team to facilitate open discussions and
+      collaboration.
     - Schedule: Every other Wednesday at 17:00 CET.
     - Agenda: Discuss public project developments and ongoing roadmap items.
 
 2. **Private Gno.land Developer Call (1hr)**
-    - Purpose: Bi-weekly call exclusively for core contributors, dev teams, and the core team to address more sensitive or internal matters.
+    - Purpose: Bi-weekly call exclusively for core contributors, dev teams, and the core team to address more sensitive
+      or internal matters.
     - Schedule: Every other Wednesday at 17:00 CET.
     - Agenda: Discuss confidential project developments, plan roadmap milestones, and address critical issues.
-
 
 ## Company-related Meetings
 
 1. **Company Townhall**
-    - Purpose: The official company-wide townhall meeting, ensuring transparent communication and alignment across the organization.
+    - Purpose: The official company-wide townhall meeting, ensuring transparent communication and alignment across the
+      organization.
     - Schedule: Every other Wednesday at 18:00 CET.
-    - Agenda: Share company updates, celebrate achievements, address concerns, and allow employees to ask questions openly.
+    - Agenda: Share company updates, celebrate achievements, address concerns, and allow employees to ask questions
+      openly.
 
