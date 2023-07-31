@@ -13,6 +13,7 @@ theme:
     - navigation.indexes
     - navigation.footer
     - header.autohide
+    - toc.integrate
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -27,5 +28,12 @@ theme:
         name: Switch to light mode
 plugins:
   - search
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra:
   generator: false
+  version:
+    default: latest
+    provider: mike

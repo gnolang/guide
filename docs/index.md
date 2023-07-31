@@ -10,12 +10,12 @@ Below, you'll find an overview of the different sections available to help you q
 
 ## Specific Teams
 
-- [Gnoland](./teams/gnoland/index.md)
+- [Gnoland](./teams/gnoland/gnoland.md)
 
 ## Knowledge Corner
 
-- [Blockchains 101](./knowledge-corner/blockhains-101/index.md)
-- [How to use Git](./knowledge-corner/how-to-use-git/index.md)
-- [The world of Cosmos](./knowledge-corner/world-of-cosmos/index.md)
+- [Blockchains 101](./knowledge-corner/blockhains-101/blockchain.md)
+- [How to use Git](./knowledge-corner/git/git.md)
+- [The world of Cosmos](./knowledge-corner/world-of-cosmos/cosmos.md)
 
 If you have any questions or need further assistance, please don't hesitate to reach out to your team members.
