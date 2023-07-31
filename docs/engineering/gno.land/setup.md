@@ -1,11 +1,8 @@
-## Requirements
+## Contributing
 
-Below, you can find the general project requirements:
-
-- Go `1.19`
-- Git
-- `make` (for Makefile runs)
-- [golangci-lint](https://golangci-lint.run/usage/install/#local-installation) (local linter)
+We tend to keep an updated `CONTRIBUTING.md`, which contains relevant setup and workflow
+information about Gno. You can find it on the official Gno
+repo, [here](https://github.com/gnolang/gno/blob/master/CONTRIBUTING.md).
 
 ## Local repo setup
 
@@ -76,7 +73,8 @@ gno test --root-dir /Users/zmilos/Work/gno path/to/package
 
 ## Running the linter
 
-We use the `golangci-lint` linter for both our CI and local linting. Once you ensure it is installed, run the following
+We use the [`golangci-lint` linter](https://golangci-lint.run/usage/install/#local-installation) for both our CI and
+local linting. Once you ensure it is installed, run the following
 command:
 
 ```bash
