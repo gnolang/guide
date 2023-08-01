@@ -1,4 +1,4 @@
-## Overview
+### Overview
 
 We utilize Signal for day-to-day discussions across different teams in AiB.
 

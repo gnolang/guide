@@ -1,4 +1,4 @@
-## Overview
+### Overview
 
 We utilize Discord to foster community interaction and collaboration among teams both within and outside of our company.
 

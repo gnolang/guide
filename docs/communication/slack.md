@@ -1,4 +1,4 @@
-## Overview
+### Overview
 
 Slack is the primary medium of communication within All in Bits.
 
