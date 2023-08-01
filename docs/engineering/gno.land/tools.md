@@ -16,7 +16,7 @@ Check out the resources below to make your development experience in Gno more en
 - **Auto-generated Go Benchmark Graphs** - We have an automated system that generates benchmark graphs from existing
   benchmarks in our codebase. These benchmarks are triggered on each Pull Request (PR) merge, providing valuable
   insights into performance improvements or regressions. You can access the aggregated
-  benchmark graphs [here](https://gnoland.github.io/benchmarks).
+  benchmark graphs here (link pending).
 - **Supernova** - For stress-testing our Gno node, we utilize a tool called Supernova. This tool bombards the Gno node
   with transactions and helps us extract performance metrics such as Transactions Per Second (TPS) and block
   utilization. You can explore the Supernova tool and its code repository [here](https://github.com/gnolang/supernova).
