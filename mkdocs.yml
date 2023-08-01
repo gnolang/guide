@@ -51,7 +51,6 @@ nav:
           - Tools: 'engineering/gno.land/tools.md'
           - Resources: 'engineering/gno.land/resources.md'
           - Team: 'engineering/gno.land/team.md'
-          - Meetings: 'engineering/gno.land/meetings.md'
           - "First Challenges": 'engineering/gno.land/first-challenges.md'
   - Communication:
       - Discord: 'communication/discord.md'
