@@ -19,7 +19,7 @@ need:
 
 ## Knowledge Corner
 
-- [Blockchains 101](./knowledge-corner/blockhains-101/blockchain.md)
+- [Blockchains 101](knowledge-corner/blockchains-101/blockchain.md)
 - [How to use Git](knowledge-corner/version-control/guide-to-git.md)
 - [The world of Cosmos](./knowledge-corner/world-of-cosmos/cosmos.md)
 
