@@ -20,7 +20,7 @@ need:
 ## Knowledge Corner
 
 - [Blockchains 101](./knowledge-corner/blockhains-101/blockchain.md)
-- [How to use Git](./knowledge-corner/git/git.md)
+- [How to use Git](knowledge-corner/version-control/guide-to-git.md)
 - [The world of Cosmos](./knowledge-corner/world-of-cosmos/cosmos.md)
 
 If you have any questions or need further assistance, please don't hesitate to reach out to your team members.
