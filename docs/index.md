@@ -15,7 +15,7 @@ need:
 
 ## Specific Teams
 
-- [Gnoland](./teams/gnoland/gnoland.md)
+- [Gnoland](./engineering/gno.land/intro.md)
 
 ## Knowledge Corner
 
