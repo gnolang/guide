@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: gnolang-guide
+    image: aib-guide
     ports:
       - "8000:8000"
     volumes:
