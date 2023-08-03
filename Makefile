@@ -7,7 +7,7 @@ MAKEFLAGS += --silent
 
 ## serve: Build HTML from markdown content.
 serve: 
-	docker-compose up
+	cd build && docker-compose up
  
 .PHONY: help
 all: help

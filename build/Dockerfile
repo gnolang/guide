@@ -2,7 +2,7 @@
 FROM squidfunk/mkdocs-material
 
 # Set the working directory inside the container
-WORKDIR /docs
+WORKDIR ../docs
 
 # Copy requirements.txt to the working directory
 COPY ../requirements.txt .
