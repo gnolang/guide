@@ -76,14 +76,14 @@ beginner-friendly tutorial for getting started.
 ## Git tools
 
 - [Git Fork](https://git-fork.com/): Visual git client.
-- [GitHub CLI](https://cli.github.com/): Do Github operations easily from the CLI.
+- [GitHub CLI](https://cli.github.com/): Do GitHub operations easily from the CLI.
 
 ## More resources
 
 - [Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 - Play with git operations and visualize what is happening
   internally: [Visualizing git](http://git-school.github.io/visualizing-git)
-- [Hello world with git on Github](https://docs.github.com/en/get-started/quickstart/hello-world).
+- [Hello world with git on GitHub](https://docs.github.com/en/get-started/quickstart/hello-world).
 
 ## Visualize Git
 
@@ -138,7 +138,7 @@ The only modification was to the hash of our commit. That means we changed the c
 
 ![](assets/3.png)
 
-### Commited to master instead of a new branch?
+### Committed to master instead of a new branch?
 
 We were working casually and finished our work, only to commit to master instead of another branch. Ah, a silly mistake
 indeed. You can see our mistake in the graph below.

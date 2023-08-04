@@ -30,7 +30,7 @@ In comparison to Ethereum, Gno.land offers distinct advantages:
 1. **Transparent and Auditable Smart Contracts**: Gno.land Smart Contracts are fully transparent and auditable by users
    because the actual source code is uploaded to the blockchain. In contrast, Ethereum uses [Solidity](#), which
    requires precompilation into bytecode, leading to less transparency as bytecode is stored on the blockchain, not the
-   human-readable source code.ß
+   human-readable source code.
 
 2. **General-Purpose Language**: Gno.land's Gnolang is a general-purpose language, similar to Go, extending its
    usability beyond the context of blockchain. In contrast, Solidity is designed specifically for Smart Contracts on the
