@@ -1,0 +1,118 @@
+/* Design system */
+:root,
+[data-md-color-scheme="aib"] {
+  /* primary */
+  --md-primary-fg-color: #000;
+  --md-primary-fg-color--light: #6f6f6f;
+  --md-primary-fg-color--dark: #000;
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: #efefef;
+  --md-primary-bg-color--dark: #b4b4b4;
+
+  /* accent */
+  --md-accent-fg-color: #000;
+  --md-accent-fg-color--transparent: #efefef;
+  --md-accent-bg-color: yellow;
+  --md-accent-bg-color--light: green;
+}
+
+:root {
+  --md-typeset-color: var(--md-primary-fg-color--light);
+}
+
+/* Header */
+
+.md-header {
+  --ring-offset-shadow: 0 0 #0000;
+  --ring-shadow: 0 0 #0000;
+  --shadow: 16px 32px 128px -8px rgba(0, 0, 0, 0.07);
+
+  position: fixed;
+  width: 100%;
+  max-width: 61rem;
+  left: 50%;
+  top: 1rem;
+  transform: translate3D(-50%, 0, 0);
+  border-radius: 1rem;
+  padding: 0.5rem 1.25rem;
+  color: var(--md-primary-fg-color);
+  background-color: var(--md-primary-bg-color);
+  box-shadow: var(--ring-offset-shadow, 0 0 #0000), var(--ring-shadow, 0 0 #0000), var(--shadow);
+}
+
+.md-header[hidden] {
+  transform: translate3D(-50%, calc(-100% - 1rem), 0);
+}
+
+.md-header + * {
+  margin-top: 6rem;
+}
+
+.md-header[hidden] + .md-container .md-sidebar {
+  transform: translateY(-5rem);
+  transition: 0.8s transform cubic-bezier(0.1, 0.7, 0.1, 1);
+  transition-delay: 0.1s;
+}
+
+.md-tabs {
+  color: var(--md-primary-fg-color);
+  background-color: var(--md-primary-bg-color);
+}
+.md-tabs__link {
+  opacity: 0.6;
+}
+.md-tabs__link--active {
+  opacity: 1;
+}
+.md-nav__link--passed {
+  color: var(--md-primary-bg-color--dark);
+}
+
+/* SearchBar */
+.md-search__form {
+  background-color: var(--md-primary-bg-color);
+  border-radius: 0.625rem;
+  border: 1px solid var(--md-primary-fg-color);
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+[dir="ltr"] .md-search__output,
+[dir="rtl"] .md-search__output {
+  border-radius: 0 0 0.625rem 0.625rem;
+}
+
+@media screen and (min-width: 60em) {
+  .md-search__input + .md-search__icon {
+    color: var(--md-primary-fg-color);
+  }
+  .md-search__overlay {
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+  }
+}
+
+/* Sidebar */
+.md-sidebar__scrollwrap {
+  margin-block-start: 1rem;
+}
+
+.md-sidebar {
+  transition: 0.2s transform cubic-bezier(0.1, 0.7, 0.1, 1);
+}
+
+/* Main */
+.md-content__inner {
+  margin-block-start: 0.3rem;
+}
+
+/* link */
+.md-typeset a {
+  color: inherit;
+  text-decoration: underline;
+}
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color);
+}
