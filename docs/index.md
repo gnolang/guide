@@ -11,16 +11,8 @@ Our documentation is designed to complement, not replace, the official documenta
 place. It serves as a quick reference and a knowledge store to support both new and experienced team members.
 
 Below, you'll find an overview of the different sections available to help you quickly navigate to the information you
-need:
-
-## Specific Teams
-
-- [Gnoland](./engineering/gno.land/intro.md)
-
-## Knowledge Corner
-
-- [Blockchains 101](knowledge-corner/blockchains-101/blockchain.md)
-- [How to use Git](knowledge-corner/version-control/guide-to-git.md)
-- [The world of Cosmos](./knowledge-corner/world-of-cosmos/cosmos.md)
+need.
 
 If you have any questions or need further assistance, please don't hesitate to reach out to your team members.
+
+{% include "./ToC.md" %}
