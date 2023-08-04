@@ -34,6 +34,7 @@ theme:
     view: material/eye
 
 plugins:
+  - awesome-pages
   - search
   - git-revision-date-localized:
       enable_creation_date: true
@@ -56,27 +57,3 @@ extra:
 repo_url: https://github.com/gnolang/guide
 repo_name: gnolang/guide
 edit_uri: edit/main/docs/
-
-nav:
-  - Home: 'index.md'
-  - Engineering:
-      - Conventions:
-          - "General Documentation": 'engineering/conventions/documentation.md'
-          - "Go Conventions": 'engineering/conventions/go.md'
-      - "Gno.land":
-          - Intro: 'engineering/gno.land/intro.md'
-          - Setup: 'engineering/gno.land/setup.md'
-          - Tools: 'engineering/gno.land/tools.md'
-          - Resources: 'engineering/gno.land/resources.md'
-          - Team: 'engineering/gno.land/team.md'
-          - "First Challenges": 'engineering/gno.land/first-challenges.md'
-  - Communication:
-      - Discord: 'communication/discord.md'
-      - Signal: 'communication/signal.md'
-      - Slack: 'communication/slack.md'
-  - "Knowledge Corner":
-      - "Version Control":
-          - "Guide to Git": 'knowledge-corner/version-control/guide-to-git.md'
-      - "World of Cosmos": 'knowledge-corner/world-of-cosmos/cosmos.md'
-      - "Blockchains 101":
-          - "Blockchain Basics": 'knowledge-corner/blockchains-101/blockchain.md'

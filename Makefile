@@ -5,8 +5,8 @@ PROJECTNAME='aib-guide'
 # Make is verbose in Linux. Make it silent.
 MAKEFLAGS += --silent
 
-## build: Builds the Docker image.
-build:
+## docker-build: Builds the Docker image.
+docker-build:
 	cd build && docker-compose build --no-cache
 
 ## serve: Build HTML from markdown content.
