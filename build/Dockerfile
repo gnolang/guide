@@ -5,7 +5,7 @@ FROM squidfunk/mkdocs-material
 WORKDIR ../docs
 
 # Copy requirements.txt to the working directory
-COPY ../requirements.txt .
+COPY requirements.txt .
 
 # Install required Python packages
 RUN python -m pip install --upgrade pip setuptools wheel
