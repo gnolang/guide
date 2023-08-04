@@ -14,6 +14,8 @@ theme:
     - navigation.footer
     - header.autohide
     - toc.integrate
+    - content.action.edit
+    - content.action.view
   palette:
   palette:
     # Palette toggle for light mode
@@ -29,13 +31,25 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
 plugins:
   - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: gnolang/guide
+      branch: main
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - footnotes
+
 extra:
   generator: false
   version:
@@ -44,6 +58,11 @@ extra:
 
 extra_css:
   - assets/styles.css
+
+repo_url: https://github.com/gnolang/guide
+repo_name: gnolang/guide
+edit_uri: edit/main/docs/
+
 nav:
   - Home: "index.md"
   - Engineering:

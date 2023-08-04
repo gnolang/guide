@@ -7,7 +7,7 @@ MAKEFLAGS += --silent
 
 ## serve: Build HTML from markdown content.
 serve: 
-	docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+	cd build && docker-compose up
  
 .PHONY: help
 all: help
