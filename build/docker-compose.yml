@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mkdocs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: aib-guide
+    ports:
+      - "8000:8000"
+    volumes:
+      - ..:/docs
