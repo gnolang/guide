@@ -40,12 +40,12 @@ Once done, run:
 make serve
 ```
 
-If you are running a Windows machine, consider installing `Docker` directly, and running:
+To run a basic spell-check, you can run:
 ```bash
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+make spellcheck
 ```
 
-Otherwise, you can also use `WSL2` on Windows, and run the `make` command mentioned above.
+If you are running a Windows machine, you can use `WSL2` on Windows, and run the `make` command mentioned above.
 
 Thank you for your interest in contributing to our All in Bits guide!
 
