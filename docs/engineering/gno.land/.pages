@@ -1,0 +1,8 @@
+nav:
+ - intro.md
+ - setup.md
+ - tools.md
+ - resources.md
+ - team.md
+ - first-challenges.md
+ - ... # everyting else

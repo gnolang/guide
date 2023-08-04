@@ -1,4 +1,4 @@
-# Cosmos
+# World of Cosmos
 
 ## What are the projects in Cosmos?
 
