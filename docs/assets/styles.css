@@ -18,6 +18,7 @@
   --md-typeset-color: var(--md-primary-fg-color--light, #6f6f6f);
   --md-default-bg-color: var(--md-primary-bg-color, #fff);
   --md-typeset-a-color: var(--md-primary-fg-color, #000);
+  --md-default-fg-color: var(--md-accent-fg-color);
   --md-default-fg-color--light: var(--md-accent-fg-color);
   --md-default-fg-color--lightest: var(--md-primary-fg-color--light);
 }
@@ -41,6 +42,7 @@
   --md-typeset-color: var(--md-primary-fg-color--dark, #a8a8a8);
   --md-default-bg-color: #282828;
   --md-typeset-a-color: var(--md-primary-fg-color, #000);
+  --md-default-fg-color: var(--md-accent-fg-color);
   --md-default-fg-color--light: var(--md-accent-fg-color);
   --md-default-fg-color--lightest: var(--md-primary-fg-color--light);
 }
@@ -54,7 +56,7 @@
 /* Header */
 .md-header {
   position: fixed;
-  width: 100%;
+  width: calc(100% - 1.6rem);
   max-width: 61rem;
   left: 50%;
   top: 1rem;
@@ -64,6 +66,12 @@
   color: var(--md-primary-fg-color);
   background-color: var(--md-primary-bg-color);
   box-shadow: var(--ring-offset-shadow, 0 0 #0000), var(--ring-shadow, 0 0 #0000), var(--shadow);
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-header {
+    width: 100%;
+  }
 }
 
 .md-header[hidden] {
@@ -122,8 +130,6 @@
   color: var(--md-primary-fg-color--dark);
 }
 
-.md-header__source {
-}
 @media screen and (min-width: 60em) {
   [dir="ltr"] .md-header__source {
     margin-right: 1rem;
@@ -146,6 +152,12 @@
   }
 }
 
+@media screen and (max-width: 59.9375em) {
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__inner {
+    height: 96vh;
+  }
+}
+
 .md-header__source {
   width: auto;
   order: 1;
@@ -161,7 +173,26 @@
 }
 
 .md-sidebar {
+  width: 100%;
   transition: 0.2s transform cubic-bezier(0.1, 0.7, 0.1, 1);
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar {
+    width: 12.1rem;
+  }
+}
+
+@media screen and (max-width: 76.1875em) {
+  [dir="ltr"] .md-sidebar--primary {
+    left: -100%;
+  }
+}
+
+@media screen and (max-width: 76.1875em) {
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    transform: translateX(100%);
+  }
 }
 
 /* Main */
@@ -193,15 +224,48 @@
 .md-footer__inner {
   overflow: initial;
   color: var(--md-accent-fg-color, #000);
+  margin-inline: 0.8rem;
+  flex-direction: column;
+}
+@media screen and (min-width: 76.1875em) {
+  .md-footer__inner {
+    margin-inline: 0;
+    flex-direction: row;
+  }
 }
 
 .md-footer__link {
   background: var(--md-primary-bg-color);
   border-radius: 1rem;
   padding: 1rem;
-  flex-basis: 30%;
+  flex-basis: 100%;
   box-shadow: var(--ring-offset-shadow, 0 0 #0000), var(--ring-shadow, 0 0 #0000), var(--shadow);
 }
+
+[dir="ltr"] .md-footer__link--next {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 59.9375em) {
+  .md-footer__link {
+    flex-basis: 45%;
+  }
+  .md-footer__inner {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 76.1875em) {
+  .md-footer__link {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-footer__link--prev .md-footer__title {
+    display: block;
+  }
+}
+
 .md-footer-meta {
   margin-top: 2rem;
   border-top: 1px solid var(--md-primary-bg-color--light);
@@ -221,18 +285,44 @@ html .md-footer-meta.md-typeset a:hover {
 
 /* fonts */
 .md-typeset h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 3rem;
-}
-
-.md-typeset h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 2rem;
 }
 
-.md-typeset h3 {
+.md-typeset h2 {
   font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+}
+
+.md-typeset h3 {
+  font-size: 1.1rem;
   line-height: 1rem;
+}
+
+@media screen and (min-width: 76.1875em) {
+  .md-typeset h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .md-typeset h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .md-typeset h3 {
+    font-size: 1.25rem;
+    line-height: 1rem;
+  }
+}
+
+/* md */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.8rem;
+  background: var(--md-primary-bg-color);
+  color: var(--md-primary-fg-color);
+  overflow: hidden;
 }
