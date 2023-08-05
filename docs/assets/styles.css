@@ -11,8 +11,6 @@
   /* accent */
   --md-accent-fg-color: #000;
   --md-accent-fg-color--transparent: #efefef;
-  --md-accent-bg-color: yellow;
-  --md-accent-bg-color--light: green;
 
   /* combi */
   --md-typeset-color: var(--md-primary-fg-color--light, #6f6f6f);
@@ -35,8 +33,6 @@
   /* accent */
   --md-accent-fg-color: #fff;
   --md-accent-fg-color--transparent: #1c1c1c;
-  --md-accent-bg-color: yellow;
-  --md-accent-bg-color--light: green;
 
   /* combi */
   --md-typeset-color: var(--md-primary-fg-color--dark, #a8a8a8);
