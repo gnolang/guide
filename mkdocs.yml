@@ -37,6 +37,7 @@ theme:
     view: material/eye
 
 plugins:
+  - awesome-pages
   - search
   - git-revision-date-localized:
       enable_creation_date: true
@@ -63,6 +64,7 @@ repo_url: https://github.com/gnolang/guide
 repo_name: gnolang/guide
 edit_uri: edit/main/docs/
 
+
 nav:
   - Home: "index.md"
   - Engineering:
@@ -86,3 +88,4 @@ nav:
       - "World of Cosmos": "knowledge-corner/world-of-cosmos/cosmos.md"
       - "Blockchains 101":
           - "Blockchain Basics": "knowledge-corner/blockchains-101/blockchain.md"
+

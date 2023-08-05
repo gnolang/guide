@@ -1,0 +1,5 @@
+nav:
+  - version-control
+  - cosmos.md
+  - blockchains-101
+  - ... # everything else
