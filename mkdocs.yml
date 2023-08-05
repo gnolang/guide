@@ -19,7 +19,8 @@ theme:
   palette:
   palette:
     # Palette toggle for light mode
-    - scheme: aib
+    - media: "(prefers-color-scheme: light)"
+      scheme: aib
       primary: aib
       accent: aib
       toggle:
@@ -27,7 +28,10 @@ theme:
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: aib-dark
+      primary: aib-dark
+      accent: aib-dark
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

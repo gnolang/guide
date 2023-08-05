@@ -1,10 +1,9 @@
 /* Design system */
-:root,
 [data-md-color-scheme="aib"] {
   /* primary */
   --md-primary-fg-color: #000;
   --md-primary-fg-color--light: #6f6f6f;
-  --md-primary-fg-color--dark: #000;
+  --md-primary-fg-color--dark: #6f6f6f;
   --md-primary-bg-color: #fff;
   --md-primary-bg-color--light: #efefef;
   --md-primary-bg-color--dark: #b4b4b4;
@@ -14,10 +13,34 @@
   --md-accent-fg-color--transparent: #efefef;
   --md-accent-bg-color: yellow;
   --md-accent-bg-color--light: green;
+
+  /* combi */
+  --md-typeset-color: var(--md-primary-fg-color--light, #6f6f6f);
+  --md-default-bg-color: var(--md-primary-bg-color, #fff);
+  --md-typeset-a-color: var(--md-primary-fg-color, #000);
+  --md-default-fg-color--light: var(--md-accent-fg-color);
 }
 
-:root {
-  --md-typeset-color: var(--md-primary-fg-color--light);
+[data-md-color-scheme="aib-dark"] {
+  /* primary */
+  --md-primary-fg-color: #fff;
+  --md-primary-fg-color--light: #6f6f6f;
+  --md-primary-fg-color--dark: #a8a8a8;
+  --md-primary-bg-color: #1c1c1c;
+  --md-primary-bg-color--light: #3a3a3a;
+  --md-primary-bg-color--dark: #3a3a3a;
+
+  /* accent */
+  --md-accent-fg-color: #fff;
+  --md-accent-fg-color--transparent: #1c1c1c;
+  --md-accent-bg-color: yellow;
+  --md-accent-bg-color--light: green;
+
+  /* combi */
+  --md-typeset-color: var(--md-primary-fg-color--dark, #a8a8a8);
+  --md-default-bg-color: #282828;
+  --md-typeset-a-color: var(--md-primary-fg-color, #000);
+  --md-default-fg-color--light: var(--md-accent-fg-color);
 }
 
 /* Header */
@@ -68,11 +91,16 @@
   color: var(--md-primary-bg-color--dark);
 }
 
+[data-md-color-scheme="aib-dark"] .md-header__button.md-logo img,
+[data-md-color-scheme="aib-dark"] .md-header__button.md-logo svg {
+  filter: invert(1);
+}
+
 /* SearchBar */
 .md-search__form {
   background-color: var(--md-primary-bg-color);
   border-radius: 0.625rem;
-  border: 1px solid var(--md-primary-fg-color);
+  border: 1px solid var(--md-primary-fg-color--dark);
 }
 
 [data-md-toggle="search"]:checked ~ .md-header .md-search__form {
@@ -84,10 +112,15 @@
   border-radius: 0 0 0.625rem 0.625rem;
 }
 
+.md-header__button {
+  color: var(--md-primary-fg-color--dark);
+}
+
 @media screen and (min-width: 60em) {
   .md-search__input + .md-search__icon {
-    color: var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color--dark);
   }
+
   .md-search__overlay {
     background-color: transparent;
     backdrop-filter: blur(3px);
