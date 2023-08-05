@@ -16,7 +16,8 @@ theme:
     - toc.integrate
     - content.action.edit
     - content.action.view
-  palette:
+  font:
+    text: Inter
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -24,7 +25,7 @@ theme:
       primary: aib
       accent: aib
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -33,7 +34,7 @@ theme:
       primary: aib-dark
       accent: aib-dark
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
@@ -55,11 +56,20 @@ markdown_extensions:
   - pymdownx.superfences
   - footnotes
 
+copyright: GnoLand x All in Bits — 2023
+
 extra:
   generator: false
   version:
     default: latest
     provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gnolang
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/YFtMjWwUN7
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/_gnoland
 
 extra_css:
   - assets/styles.css
@@ -67,29 +77,3 @@ extra_css:
 repo_url: https://github.com/gnolang/guide
 repo_name: gnolang/guide
 edit_uri: edit/main/docs/
-
-
-nav:
-  - Home: "index.md"
-  - Engineering:
-      - Conventions:
-          - "General Documentation": "engineering/conventions/documentation.md"
-          - "Go Conventions": "engineering/conventions/go.md"
-      - "Gno.land":
-          - Intro: "engineering/gno.land/intro.md"
-          - Setup: "engineering/gno.land/setup.md"
-          - Tools: "engineering/gno.land/tools.md"
-          - Resources: "engineering/gno.land/resources.md"
-          - Team: "engineering/gno.land/team.md"
-          - "First Challenges": "engineering/gno.land/first-challenges.md"
-  - Communication:
-      - Discord: "communication/discord.md"
-      - Signal: "communication/signal.md"
-      - Slack: "communication/slack.md"
-  - "Knowledge Corner":
-      - "Version Control":
-          - "Guide to Git": "knowledge-corner/version-control/guide-to-git.md"
-      - "World of Cosmos": "knowledge-corner/world-of-cosmos/cosmos.md"
-      - "Blockchains 101":
-          - "Blockchain Basics": "knowledge-corner/blockchains-101/blockchain.md"
-
