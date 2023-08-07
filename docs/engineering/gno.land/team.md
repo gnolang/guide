@@ -36,7 +36,7 @@
 
 [Teritori](https://teritori.com) is an open-source Web3 resilient OS for humans & organizations, soon available on desktop & mobile, with an all-in-one decentralized experience. They are building the GnoDAO Deployer as well as the Moderation DAO; more information can be found within the [Gnodaos repository](https://github.com/TERITORI/gnodaos/).
 
-The [Teritori dApp](https://app.teritori.com/) [(repo)](https://github.com/TERITORI/teritori-dap) is an all-in-one decentralized application providing various coordination & communication features for humans. In the future (v3) it will also be a privacy first messaging application built on top of the [Berty Protocol](https://berty.tech/).
+The [Teritori dApp](https://app.teritori.com/) [(repo)](https://github.com/TERITORI/teritori-dapp) is an all-in-one decentralized application providing various coordination & communication features for humans. In the future (v3) it will also be a privacy first messaging application built on top of the [Berty Protocol](https://berty.tech/).
 
 - [@zxxma](https://github.com/zxxma) - Antoine
 - [@n0izn0iz](https://github.com/n0izn0iz) - Norman Meier
