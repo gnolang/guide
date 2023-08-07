@@ -17,7 +17,7 @@
 
 - [@schollz](https://github.com/schollz) - Zach Schollz (Tinkerer)
 - [@ltzmaxwell](https://github.com/ltzmaxwell)
-- [@giansalex](https://github.com/giansalex)
+- [@giansalex](https://github.com/giansalex) - Giancarlos Salas
 - [@anarcher](https://github.com/anarcher)
 
 ### OnBloc
@@ -30,7 +30,7 @@
 ### Teritori
 
 - [@zxxma](https://github.com/zxxma) - Antoine
-- [@n0izn0iz](https://github.com/n0izn0iz) - Norman
+- [@n0izn0iz](https://github.com/n0izn0iz) - Norman Meier
 - [@JK Gopher](https://github.com/go7066)
 - [@hthieu1110](https://github.com/hthieu1110)
 - [@omniwired](https://github.com/omniwired) - Juan
@@ -38,12 +38,20 @@
 
 ## Meetings
 
-The Gno.land team has established a well-structured meeting schedule to ensure effective communication and collaboration
-among team members and contributors.
+The Gno.land team has established a well-structured meeting schedule to ensure effective communication and collaboration among team members and contributors.
 
 ### Team Meetings
 
 You can find the team meeting structure and meeting notes [here](https://github.com/gnolang/meetings).
+
+#### Weekly Gno Dev Sync:
+- This is a meeting of internal Gno devs and provides opportunities to demo features or new developments, discuss blockers, provide updates on what work is being done, etc. and overall provide visibility into the various goings-on with respect to general Gno development.
+
+#### {Public} Gno.Land Developer Call:
+- This is a meeting where the core team will discuss issues and provide updates on development to the community. Typically, these calls are recorded.
+
+#### {Private} Gno.Land Developer Call
+- This is a meeting of both internal Gno devs as well as partners of Gno, including Onbloc and Teritori. The objective of the meeting is to provide an interactive session, providing updates on developments on the tech from the core team, as well as contributions, challenges, and milestones that are being worked on.
 
 ### Company-related Meetings
 
@@ -53,4 +61,3 @@ You can find the team meeting structure and meeting notes [here](https://github.
     - Schedule: Every other Wednesday at 18:00 CET.
     - Agenda: Share company updates, celebrate achievements, address concerns, and allow employees to ask questions
       openly.
-
