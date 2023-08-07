@@ -93,7 +93,7 @@ tm2
 tokenomics
 townhall
 zerlog
-deployer
+Deployer
 Giancarlos
 Onbloc
 Gnoscan
