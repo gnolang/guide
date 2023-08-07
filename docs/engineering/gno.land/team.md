@@ -1,3 +1,5 @@
+# Team
+
 ## Core Team
 
 - [@jaekwon](https://github.com/jaekwon) - Jae Kwon
