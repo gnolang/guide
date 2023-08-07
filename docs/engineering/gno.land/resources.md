@@ -1,3 +1,5 @@
+# Resources
+
 ## Official Docs
 
 Coming soon!
@@ -6,6 +8,9 @@ Coming soon!
 
 We take pride in sharing our knowledge with the community worldwide through workshops and presentations. You can explore
 the complete list of our workshops [here](https://github.com/gnolang/workshops).
+
+## Gno By Example
+[Gno By Example](https://gno-by-example.com/) is a community-dedicated web app that showcases the fundamentals of Gnolang, the Smart Contract language used on [Gno.land](https://gno.land). We welcome you to contribute to the official [Gno By Example repository](https://github.com/gnolang/gno-by-example).
 
 ## Awesome Gno Repository
 
