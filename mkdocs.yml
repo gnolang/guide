@@ -1,6 +1,6 @@
 site_name: All in Bits Onboarding
 theme:
-  logo: assets/aib-logo.png
+  logo: assets/aib-logo.svg
   favicon: assets/favicon.png
   name: material
   features:
@@ -16,17 +16,25 @@ theme:
     - toc.integrate
     - content.action.edit
     - content.action.view
+  font:
+    text: Inter
   palette:
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: aib
+      primary: aib
+      accent: aib
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: aib-dark
+      primary: aib-dark
+      accent: aib-dark
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
@@ -48,11 +56,23 @@ markdown_extensions:
   - pymdownx.superfences
   - footnotes
 
+copyright: All in Bits Onboarding — 2023
+
 extra:
   generator: false
   version:
     default: latest
     provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gnolang
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/YFtMjWwUN7
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/_gnoland
+
+extra_css:
+  - assets/styles.css
 
 repo_url: https://github.com/gnolang/guide
 repo_name: gnolang/guide
