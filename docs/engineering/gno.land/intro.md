@@ -1,3 +1,5 @@
+# Introduction
+
 ## What is Gno.land?
 
 Gno.land is a [Layer 1 blockchain](#) platform that enables the execution of Smart Contracts using an interpreted

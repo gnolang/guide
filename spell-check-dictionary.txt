@@ -93,3 +93,16 @@ tm2
 tokenomics
 townhall
 zerlog
+Deployer
+Giancarlos
+Onbloc
+Gnoscan
+Gnoswap
+Web3
+GnoDAO
+DAO
+Gnodaos
+dApp
+Berty
+Dev
+devs

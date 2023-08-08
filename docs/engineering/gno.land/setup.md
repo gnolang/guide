@@ -1,3 +1,5 @@
+# Setup
+
 ## Contributing
 
 We tend to keep an updated `CONTRIBUTING.md`, which contains relevant setup and workflow

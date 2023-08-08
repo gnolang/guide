@@ -1,3 +1,5 @@
+# Tools
+
 ## Editors
 
 At Gno.land, we embrace the diversity of text editors used by our team members for writing code. We believe that
