@@ -53,10 +53,10 @@ The Gno.land team has established a well-structured meeting schedule to ensure e
 
 You can find the team meeting structure and meeting notes [here](https://github.com/gnolang/meetings).
 
-#### Weekly Gno Dev Sync:
+#### Weekly Gno Dev Sync
 - This is a meeting of internal Gno devs and provides opportunities to demo features or new developments, discuss blockers, provide updates on what work is being done, etc. and overall provide visibility into the various goings-on with respect to general Gno development.
 
-#### {Public} Gno.Land Developer Call:
+#### {Public} Gno.Land Developer Call
 - This is a meeting where the core team will discuss issues and provide updates on development to the community. Typically, these calls are recorded.
 
 #### {Private} Gno.Land Developer Call
