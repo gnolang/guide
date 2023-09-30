@@ -1,23 +1,27 @@
 # Rigorous & Deliberate Workflow
 
-## Overview
+This guide delves into our "Rigorous & Deliberate" workflow, explicitly crafted
+for projects and tasks of high complexity, where conventional timelines and
+methodologies may not apply.
 
-This guide provides insight into our "Rigorous & Deliberate" workflow, designed
-for projects and goals that require a meticulous approach and careful scrutiny
-before merging changes.
+This workflow is reserved for challenging tasks where the end date might be
+nebulous, and the journey to completion can be long and winding – occasionally
+spanning up to a year.
 
-## Terminology
-
-- **Goal**: A clear and distinct unit of work. Each goal should have enough
-  detail to be self-contained, enabling anyone to understand its scope.
-- **Merge Request (MR)**: A request to merge a branch into the main codebase. It
-  includes the changes to be reviewed and, if accepted, merged.
-- **Reviewer**: A designated team member responsible for thoroughly inspecting
-  and vetting the changes in the MR.
-- **Merge**: The act of integrating approved changes into the main codebase.
+The focus here is not just on completion but on ensuring the utmost quality and
+protection of such tasks.
 
 ## Principles
 
+- **Protection & Isolation**: Tasks under this workflow may appear incompatible
+  or even unfair when juxtaposed with tasks from other, faster workflows. Thus,
+  it's essential to shield and isolate these tasks to prevent any
+  misunderstandings or conflicts.
+- **Transparency & Communication**: Given the long-term nature of these tasks,
+  regular communication is paramount. Teammates should always be in the loop,
+  understanding the progress, challenges, and updates. This consistent
+  communication acts as a deterrent to potential conflicts or misunderstandings
+  arising from the unique nature of these tasks.
 - **Depth Over Speed**: Emphasize comprehensiveness. Inspect each MR deeply to
   ensure alignment with our standards.
 - **Collective Ownership**: The quality of the codebase is everyone's
