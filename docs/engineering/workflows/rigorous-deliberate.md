@@ -1,84 +1,71 @@
-# 🛠 Rigorous & Deliberate Workflow 🛠
+## Rigorous & Deliberate Workflow
 
-## Overview
+### Overview
 
-This document introduces the "Rigorous & Deliberate" workflow, designed for
-tasks requiring meticulous planning, thorough reviews, and a deliberate pace to
-ensure the highest quality outcomes.
+This guide provides insight into our "Rigorous & Deliberate" workflow, designed for projects and goals that require a meticulous approach and careful scrutiny before merging changes.
 
-## Terminology
+### Terminology
 
-### Review Cycle
+- **Goal**: A clear and distinct unit of work. Each goal should have enough detail to be self-contained, enabling anyone to understand its scope.
+- **Merge Request (MR)**: A request to merge a branch into the main codebase. It includes the changes to be reviewed and, if accepted, merged.
+- **Reviewer**: A designated team member responsible for thoroughly inspecting and vetting the changes in the MR.
+- **Merge**: The act of integrating approved changes into the main codebase.
 
-- An iterative process where tasks undergo multiple checks before approval.
-  
-### Auditor
+### Principles
 
-- An individual responsible for overseeing and verifying task details.
-  
-### Slow-Track
+- **Depth Over Speed**: Emphasize comprehensiveness. Inspect each MR deeply to ensure alignment with our standards.
+- **Collective Ownership**: The quality of the codebase is everyone's responsibility. Reviewers act as gatekeepers, but all team members must prioritize excellence in their contributions.
+- **Iterative Feedback**: Provide constructive and iterative feedback during the review process, allowing the original author to refine and improve their work based on multiple perspectives.
 
-- A designated path for tasks that need extended research, design, or
-  development time.
+### Workflow
 
-### Quality Gate
+Of course! I'll restructure and refine the workflow for better clarity and coherence:
 
-- A checkpoint ensuring tasks meet the set standards.
+---
 
-## Primitives
+**Goal-Oriented Workflow**
+✨ Prioritizing Objectives & Collaboration ✨
 
-- Multiple Review Cycles.
-- A dedicated Auditor for each task.
-- Designated Slow-Track tasks.
-- Quality Gates at each workflow phase.
+**Overview:**  
+This workflow emphasizes a systematic approach driven by a clearly defined goal, supplemented by regular check-ins, meticulous documentation, and thorough reviews to ensure alignment and quality throughout the development process.
 
-## Ground Rules
+**Stages & Steps:**
 
-- All tasks undergo at least two Review Cycles.
-- Auditors have the final say on task completion and quality.
-- Slow-Track tasks aren't subjected to time constraints but need deeper reviews.
-- Tasks only proceed after passing the Quality Gate.
+1. **Goal Definition**: 
+   * Identify and articulate a clear goal or objective for the project.
+2. **Research & Foundation**:
+   * Undertake comprehensive research.
+   * Use findings to establish a robust foundation for subsequent stages.
+   * Create detailed design proposals based on research and the set goal.
+   * Submit the design for review to the Auditor to ensure alignment with the overarching goal.
+3. **Initiation of Development**:
+   * Post design approval, begin the development phase.
+   * Open an early branch and initiate a draft PR, ensuring it's appropriately labeled.
+4. **Continuous Updates & Communication**: 
+   * Keep all stakeholders informed by consistently updating relevant documents or files (e.g., PR, issue, doc, .md).
+   * Provide monthly updates highlighting progress since the last communication, forthcoming steps, and any challenges encountered.
+   * Schedule regular check-ins with the Auditor.
+   * This ensures the work remains aligned with the project's objectives and the originally set goal.
+   * Engage in regular reviews or pair programming sessions.
+   * Aim for monthly collaborations to share knowledge and enhance code quality.
+5. **Documentation**:
+   * Prioritize comprehensive documentation, especially for intricate tasks.
+   * Ensure it's clear, detailed, and easily understandable.
+6. **Review & Feedback**:
+   * Appoint a minimum of two reviewers for detailed feedback.
+   * Their insights ensure quality, functionality, and alignment with the goal.
+   * Before concluding, the Auditor assesses the project for integrity, functionality, and congruence with the initially set goals.
+### Recommendations
 
-## Stages
+* **Open Dialogue**: Encourage open communication among team members. Regular discussions can lead to proactive problem-solving and innovation.
+* **Adaptable Milestones**: While sticking to the goal is crucial, allow for minor adjustments to milestones based on feedback and unforeseen challenges.
+- **Stay Updated**: Always work with the latest version of the main codebase to minimize merge conflicts.
+- **Open Communication**: If you're unsure at any stage, communicate. Whether you're the goal owner or a reviewer, open dialogue ensures clarity and quality.
 
-### Research & Design
+### Definition of Completion
 
-- Tasks begin with a thorough research phase, ensuring a solid foundation.
-- Once research is complete, design proposals are formulated and reviewed by the
-  Auditor.
-
-### Development
-
-- Development starts after design approval.
-- Slow-Track designation can be assigned here if needed.
-- Regular check-ins with the Auditor ensure the task aligns with the project's
-  objectives.
-
-### Review & Refinement
-
-- Tasks undergo multiple Review Cycles, with feedback addressed in each
-  iteration.
-- Auditors verify the task's integrity, functionality, and alignment with
-  initial goals.
-
-### Deployment & Feedback
-
-- Once the Auditor gives approval, tasks move to deployment.
-- A feedback mechanism ensures that any issues post-deployment are addressed in
-  future cycles.
-
-## Status Updates
-
-- Updates are given weekly to account for the workflow's extended duration.
-- Three key points to address:
-  1. Progress since the last update.
-  2. Immediate next steps.
-  3. Any obstacles or challenges encountered.
-
-## Definition of Completion
-
-A task is deemed complete when:
+A goal is considered complete when:
 
 - It has successfully passed through all stages.
-- Received Auditor approval post multiple reviews.
-- No outstanding feedback exists that could compromise its quality.
+- It has received Auditor approval after multiple reviews.
+- There are no outstanding feedback points that could compromise its quality.
