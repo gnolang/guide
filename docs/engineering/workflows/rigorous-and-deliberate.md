@@ -2,7 +2,9 @@
 
 ## Overview
 
-This document introduces the "Rigorous & Deliberate" workflow, designed for tasks requiring meticulous planning, thorough reviews, and a deliberate pace to ensure the highest quality outcomes.
+This document introduces the "Rigorous & Deliberate" workflow, designed for
+tasks requiring meticulous planning, thorough reviews, and a deliberate pace to
+ensure the highest quality outcomes.
 
 ## Terminology
 
@@ -16,7 +18,8 @@ This document introduces the "Rigorous & Deliberate" workflow, designed for task
   
 ### Slow-Track
 
-- A designated path for tasks that need extended research, design, or development time.
+- A designated path for tasks that need extended research, design, or
+  development time.
 
 ### Quality Gate
 
@@ -41,23 +44,28 @@ This document introduces the "Rigorous & Deliberate" workflow, designed for task
 ### Research & Design
 
 - Tasks begin with a thorough research phase, ensuring a solid foundation.
-- Once research is complete, design proposals are formulated and reviewed by the Auditor.
+- Once research is complete, design proposals are formulated and reviewed by the
+  Auditor.
 
 ### Development
 
 - Development starts after design approval.
 - Slow-Track designation can be assigned here if needed.
-- Regular check-ins with the Auditor ensure the task aligns with the project's objectives.
+- Regular check-ins with the Auditor ensure the task aligns with the project's
+  objectives.
 
 ### Review & Refinement
 
-- Tasks undergo multiple Review Cycles, with feedback addressed in each iteration.
-- Auditors verify the task's integrity, functionality, and alignment with initial goals.
+- Tasks undergo multiple Review Cycles, with feedback addressed in each
+  iteration.
+- Auditors verify the task's integrity, functionality, and alignment with
+  initial goals.
 
 ### Deployment & Feedback
 
 - Once the Auditor gives approval, tasks move to deployment.
-- A feedback mechanism ensures that any issues post-deployment are addressed in future cycles.
+- A feedback mechanism ensures that any issues post-deployment are addressed in
+  future cycles.
 
 ## Status Updates
 
