@@ -1,35 +1,23 @@
-## Rigorous & Deliberate Workflow
+# Rigorous & Deliberate Workflow
 
-### Overview
+## Overview
 
 This guide provides insight into our "Rigorous & Deliberate" workflow, designed for projects and goals that require a meticulous approach and careful scrutiny before merging changes.
 
-### Terminology
+## Terminology
 
 - **Goal**: A clear and distinct unit of work. Each goal should have enough detail to be self-contained, enabling anyone to understand its scope.
 - **Merge Request (MR)**: A request to merge a branch into the main codebase. It includes the changes to be reviewed and, if accepted, merged.
 - **Reviewer**: A designated team member responsible for thoroughly inspecting and vetting the changes in the MR.
 - **Merge**: The act of integrating approved changes into the main codebase.
 
-### Principles
+## Principles
 
 - **Depth Over Speed**: Emphasize comprehensiveness. Inspect each MR deeply to ensure alignment with our standards.
 - **Collective Ownership**: The quality of the codebase is everyone's responsibility. Reviewers act as gatekeepers, but all team members must prioritize excellence in their contributions.
 - **Iterative Feedback**: Provide constructive and iterative feedback during the review process, allowing the original author to refine and improve their work based on multiple perspectives.
 
-### Workflow
-
-Of course! I'll restructure and refine the workflow for better clarity and coherence:
-
----
-
-**Goal-Oriented Workflow**
-✨ Prioritizing Objectives & Collaboration ✨
-
-**Overview:**  
-This workflow emphasizes a systematic approach driven by a clearly defined goal, supplemented by regular check-ins, meticulous documentation, and thorough reviews to ensure alignment and quality throughout the development process.
-
-**Stages & Steps:**
+## Stages & Steps
 
 1. **Goal Definition**: 
    * Identify and articulate a clear goal or objective for the project.
@@ -55,14 +43,14 @@ This workflow emphasizes a systematic approach driven by a clearly defined goal,
    * Appoint a minimum of two reviewers for detailed feedback.
    * Their insights ensure quality, functionality, and alignment with the goal.
    * Before concluding, the Auditor assesses the project for integrity, functionality, and congruence with the initially set goals.
-### Recommendations
+## Recommendations
 
 * **Open Dialogue**: Encourage open communication among team members. Regular discussions can lead to proactive problem-solving and innovation.
 * **Adaptable Milestones**: While sticking to the goal is crucial, allow for minor adjustments to milestones based on feedback and unforeseen challenges.
 - **Stay Updated**: Always work with the latest version of the main codebase to minimize merge conflicts.
 - **Open Communication**: If you're unsure at any stage, communicate. Whether you're the goal owner or a reviewer, open dialogue ensures clarity and quality.
 
-### Definition of Completion
+## Definition of Completion
 
 A goal is considered complete when:
 
