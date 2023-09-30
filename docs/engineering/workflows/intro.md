@@ -28,7 +28,8 @@ pave their own path, as long as it aligns with our overarching philosophies.
 [Details](./infinito-tablero.md)
 
 ### 2. **Rigorous & Deliberate**
-- Prioritizes depth and broad collaboration, even with part-timers or external contributors.
+- Prioritizes depth and broad collaboration, even with part-timers or external
+  contributors.
 [Details](./rigorous-deliberate.md)
 
 ### 3. **Criteria-Based**
