@@ -1,56 +1,48 @@
 # Engineering Workflows
 
-Our guiding philosophies are **Flexibility** and **Polar Adaptability**. These
-principles underline our belief in processes that are encouraged rather than
-enforced, ensuring that while we benefit from structure, it doesn't come at the
-cost of innovation or situational needs.
+**Central Tenet**: **Simplicity through Automation**. Our aim: lean on CI/automation and eliminate manual rule enforcement.
 
-## Flexibility & Polar Adaptability in Practice:
+**Disclaimer**: Our workflows will adapt and evolve as automation capabilities expand. Our vision is a future with fewer manual interventions and increased reliance on bot integrations.
 
-- **Fast Iterations vs. Protected Slow Processes**: Some tasks thrive on quick
-  cycles, continuous adaptation, and inter-team dependencies. On the other end
-  of the spectrum, certain endeavors, especially discussions and research, need
-  to move at a deliberate, protected pace. This slower approach ensures that
-  they're not rushed, preventing premature conclusions. Both extremes have their
-  place, and we champion the value of each.
-- **Varied Review Depths**: While crucial tasks necessitate thorough reviews and
-  extensive unit testing, others are straightforward. For the simpler tasks, we
-  leave the choice to the individual—either opt for a review or take full
-  ownership of the potential consequences.
+**Guiding Philosophies**: We believe in **Flexibility** and **Polar Adaptability**, fostering processes that offer adaptability without stifling creativity.
 
-## Workflows:
+**Workflow Principles**:
+- **Composable & Adaptive**: These workflows can be combined, adjusted, or created from scratch. They’re tools, not constraints.
+- **Continuous Optimization**: We encourage constant refinement of workflows to suit changing needs.
+- **Freedom to Override**: When a workflow feels restrictive, it's encouraged to bypass it and assume responsibility for the results.
 
-We offer several suggested workflows. Teams can either adopt one of these or
-pave their own path, as long as it aligns with our overarching philosophies.
+## Workflows
 
-### 1. **Infinito Tablero** (Infinite Kanban)
-- For small and medium teams tackling complex projects.
-[Details](./infinito-tablero.md)
+1. **Infinito Tablero**  
+   - Ideal for: Complex projects in small to medium teams seeking a continuous flow approach.
+     [Details](./infinito-tablero.md)
 
-### 2. **Rigorous & Deliberate**
-- Prioritizes depth and broad collaboration, even with part-timers or external
-  contributors.
-[Details](./rigorous-deliberate.md)
+2. **Solo Voyager**  
+   - Ideal for: High-autonomy tasks, specialists, side projects, or teams operating outside daily routines. Emphasizes high responsibility.
+     [Details](./solo-voyager.md)
 
-### 3. **Criteria-Based**
-- Clear objectives for engagements with less visibility into our broader goals.
-[Details](./criteria-based.md)
+3. **Rigorous & Deliberate**  
+   - Ideal for: Deep collaborative efforts. Suitable for inclusive participation, from part-timers to external contributors.
+     [Details](./rigorous-deliberate.md)
 
-### 4. **Your Proposal Here**
-We encourage innovative approaches. If you see a need, propose a new workflow.
+4. **Rapid Prototyping**  
+   - Ideal for: Fast-paced development phases where swift iteration and adaptability are paramount.
+     [Details](./rapid-prototyping.md)
 
-## Key Points:
+5. **Taskforce/Warzone**  
+   - Ideal for: Intense focus scenarios, like hackathons, critical bugs, or product launches. Temporarily bypasses standard procedures.
+     [Details](./taskforce-warzone.md)
 
-- **Hierarchical Structure**: Projects within our system are built
-  hierarchically. This means top-tier projects act as the umbrella,
-  orchestrating and overseeing sub-projects to ensure alignment and efficiency.
-- **Unique Yet Unified**: While each team or project can define its own unique
-  set of rules, it's expected that many will find alignment with established
-  conventions. This balance fosters both innovation and consistency.
-- **Smart Communication**: Every team member plays a crucial role in maintaining
-  clarity. Gone are the days of endlessly scouring dashboards. Instead, we focus
-  on smart, effective, and timely communication to keep everyone in the loop.
-- **Flexibility Above All**: At the heart of our operations is flexibility.
-  While processes serve as valuable roadmaps, they shouldn't feel restrictive.
-  Every team member is empowered to adapt processes when it's in the best
-  interest of the team and the mission at large.
+6. **Criteria-Based**  
+   - Ideal for: Projects with clear, quantifiable objectives, especially when deeper project goals are less visible.
+     [Details](./criteria-based.md)
+
+### Propose a Workflow
+Identified a gap? Feel free to innovate and suggest.
+
+## Key Takeaways
+
+- **Hierarchy in Projects**: Projects are streamlined with a hierarchical structure ensuring cohesion across sub-projects.
+- **Uniqueness & Unity**: While each team tailors its rules, a foundational common ground is maintained to foster unity.
+- **Effective Communication**: We prioritize clear, concise communication over excessive chatter.
+- **Ultimate Flexibility**: Processes serve as guidelines, not strict rules. Adaptation in the best interest of the mission is always prioritized.
