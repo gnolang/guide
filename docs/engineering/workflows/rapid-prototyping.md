@@ -1,6 +1,7 @@
 # Rapid Prototyping Workflow
 
-This workflow fosters swift iteration, continuous feedback, and the embrace of both success and learning from failure in projects.
+This workflow fosters swift iteration, continuous feedback, and the embrace of
+both success and learning from failure in projects.
 
 ## Principles
 
@@ -29,4 +30,5 @@ This workflow fosters swift iteration, continuous feedback, and the embrace of b
 
 ## Exploration of Solutions
 
-When faced with uncertainty, develop multiple solutions either sequentially, for iterative refinement, or parallelly, to cultivate feedback and shared learning.
+When faced with uncertainty, develop multiple solutions either sequentially, for
+iterative refinement, or parallelly, to cultivate feedback and shared learning.
