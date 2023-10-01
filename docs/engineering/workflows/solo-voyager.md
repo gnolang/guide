@@ -1,39 +1,48 @@
 # Solo Voyager Workflow
 
-Designed for the independent at heart: individual contributors or domain
-experts. Embarking on the Solo Voyager journey demands deep responsibility.
-While charting their path, voyagers must align impeccably with broader project
-goals, ensuring their contributions fit even in the absence of daily guidance.
+This workflow is designed for those who thrive in a context of high
+responsibility, high ownership, and high autonomy.
+
+Tailored for entities—be it individual contributors or entire teams—that desire
+or need to operate with greater freedom, often outside of standard routines, the
+Solo Voyager is well-suited for side projects, specialized tasks, or
+explorations that are clearer in domain but uncertain in direction.
+
+A natural fit for tinkerers and those embarking on exploratory endeavors, it's
+also the default mode for side projects.
 
 ## Principles
 
-- **Proactive Engagement**: Solo Voyagers must stay informed, anticipate needs, and adeptly showcase their work.
-- **High Accountability & Autonomy**: It's upon the voyager to execute and guarantee alignment with the overarching goals.
-- **Preventive Action**: Constant vigilance about potential conflicts and active prevention is a must.
-- **Transparent Self-Reliance**: Even in autonomy, regular and transparent communication remains crucial.
+- **Proactive Engagement**: Remain connected to overarching goals, preempting needs and showcasing the journey.
+- **High Accountability & Autonomy**: Entrusted with seamlessly aligning efforts with the broader objectives.
+- **Preventive Action**: Actively prevent potential conflicts and discrepancies.
+- **Transparent Self-Reliance**: Autonomy isn't isolation. Maintain open communication.
 
 ## Stages
 
 1. **Task Selection & Planning**:
-   * Choose or receive an assignment, and confirm its alignment with broader goals. 
-   * Regularly check broader project updates to ensure your chosen direction remains relevant.
+   * Define an objective, domain, or category.
+   * Confirm alignment with broader goals, adjusting as the main project evolves.
 
 2. **Self-driven Execution**:
-   * Dive into the task, making decisions that align with the main project's progress.
-   * Even in solitude, actively seek feedback, and be open to course corrections.
+   * Navigate autonomously, harmonizing choices with the primary project's direction.
+   * Be receptive to feedback and spontaneous course adjustments.
 
 3. **Consistent Reporting**:
-   * Provide periodic updates on progress, challenges, and findings. This keeps your work visible and understood.
-   * Join scheduled sync-ups to reaffirm alignment and share updates, ensuring you're on track.
+   * Update stakeholders periodically on progress and insights.
+   * Attend sync-ups for alignment and updates.
 
 4. **Completion & Rigorous Documentation**:
-   * Finish the task, documenting outcomes meticulously.
-   * Be prepared for scrutiny. If a contribution doesn't align, irrespective of
-     quality, it may not merge. Understand this as an inherent aspect of the
-     Solo Voyager's route.
+   * Chronicle all findings, decisions, and outcomes.
+   * Recognize that quality contributions might remain unmerged if they diverge from the collective vision.
 
 ## Note
 
-The Solo Voyager's journey demands high responsibility, with the outcome resting
-squarely on the individual. It's a path of freedom, yet with the need for
-impeccable alignment and continuous awareness.
+The Solo Voyager path requires a delicate balance of independence and alignment.
+Whether as an individual, a group, or during a project's detour, it's a journey
+of autonomy, responsibility, and integration. 
+
+It is advised that core team members allocate between 0 and 50% of their time in
+this mode, using the remaining time to improve collaboration and efficiently
+tackle the collective backlog. Balancing autonomy with collaborative endeavors
+ensures a harmonious and productive project environment. 
