@@ -106,3 +106,7 @@ dApp
 Berty
 Dev
 devs
+Kanban
+Infinito
+Tablero
+roadmaps
