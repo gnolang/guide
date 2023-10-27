@@ -14,6 +14,7 @@
 - [@albttx](https://github.com/albttx) - Albert Le Batteux
 - [@ajnavarro](https://github.com/ajnavarro) - Antonio Navarro
 - [@zivkovicmilos](https://github.com/zivkovicmilos) - Milos Zivkovic
+- [@deelawn](https://github.com/deelawn) - Dylan Boltz
 
 ## Core Contributors
 
