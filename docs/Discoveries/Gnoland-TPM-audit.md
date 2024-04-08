@@ -175,7 +175,7 @@ Based on the observations and interviews with the team members, I've put togethe
 During the audit a number of team strengths were manifested. We'd want to reinforce these strengths as much as possible, or at the very least not harm them.
 
 - **High sense of agency**. Core team members aren't just waiting to be told what to do; they pursue their own ideas to contribute to the project.
-- **Balance between tasks relevant to business and passion projects**. The team understands that we need to deliver business value and they are keeen on having a roadmap that would help them prioritize their work.
+- **Balance between tasks relevant to business and passion projects**. The team understands that we need to deliver business value and they are keen on having a roadmap that would help them prioritize their work.
 - **Well organized despite a lack of project framework**. This is a great indicator of the Core team's motivation and seniority.
 - **Good async collaboration**. Almost everything happens on GitHub. Online meetings serve as checkpoints. No DMs. Almost no unconstructive criticism.
 
