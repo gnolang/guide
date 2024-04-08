@@ -97,7 +97,7 @@ TL;DR:
 
 - [Google Developer Documentation Style Guide](https://developers.google.com/style/)
 - [Avoiding sexist language](https://www.hamilton.edu/academics/centers/writing/style/essentials/sexist-and-non-sexist-language)
-- [How to Design for Color Blindness](http://blog.usabilla.com/how-to-design-for-color-blindness/)
+<!-- removed: 404 - [How to Design for Color Blindness](http://blog.usabilla.com/how-to-design-for-color-blindness/) -->
 - [Disabling Ableist Language](https://www.copyediting.com/disabling-ableist-language/#.Wk6yeFQ-dE4)
 - [Semantic Versioning](https://semver.org/)
 
