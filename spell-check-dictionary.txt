@@ -109,7 +109,6 @@ devs
 roadmap
 Jae's
 OKR
-de facto
 HackMD
 Ideation
 async
@@ -132,3 +131,4 @@ Aleksic
 unconstructive
 de
 Testnet4's
+facto
