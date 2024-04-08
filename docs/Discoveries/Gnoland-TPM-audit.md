@@ -45,7 +45,7 @@ Based on the findings, the list of proposed improvements we should focus on is t
 - Email is used rarely, primarily for company wide collaboration.
 - Hack.md is used primarily for document drafts before being published permanently on GitHub. Both being in markdown, it's a relatively straightforward transition.
 - Google Meet is where most of the internal meetings happen.
-- Discord is used for public meetings which are open to the public.
+- Discord is used for meetings which are open to the public.
 
 **Gaps and bottlenecks in information flow**
 - GitHub is hard to track for non-technical collaborators within the company. We're forced to compromise and by keeping cross-team efforts in Notion, as well as logging top level OKR in Notion. This created overhead and potential disparity in the info on Notion and GitHub (at least until we find a way to automate this)
