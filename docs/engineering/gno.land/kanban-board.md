@@ -9,7 +9,7 @@ Gno.land core team kanban board consists of the following columns:
 1. Triage. All items created on the [gnolang/gno](https://github.com/gnolang/gno) repo are automatically added. Team leads will review and optionally move to Backlog.
 2. Backlog. Items we want to do, but don't know when. Once we determine priority, we move the item to Todo.
 3. Todo. Items are prioritized, and optionally already assigned to a team member. Items in Todo are up for grabs by anyone on the team. Once you start working on it, assign yourself and move it to In Progress
-4. In Progress. Items actively worked on. Ideally each team member will have no more than 3 items at the same time. If the item hasn't been worked on for a week, move back to Todo. If you open a PR, move it to In Review. If you close it without a PR, mve it to Done.
+4. In Progress. Items actively worked on. Ideally each team member will have no more than 3 items at the same time. If the item hasn't been worked on for a week, move back to Todo. If you open a PR, move it to In Review. If you close it without a PR, move it to Done.
 5. In Review. For non-draft PRs waiting for 2 reviews (recommendation, not a rule). If a PR is merged or closed, move to Done. If a PR needs more work and moves to draft, move the item to Todo.
 6. Done. An item is either merged or closed.
 

@@ -129,3 +129,7 @@ Nemanja
 kouteki
 Boltz
 Aleksic
+kanban
+kanban-style
+gnolang
+Todo
