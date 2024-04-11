@@ -109,7 +109,6 @@ devs
 roadmap
 Jae's
 OKR
-de facto
 HackMD
 Ideation
 async
@@ -129,6 +128,10 @@ Nemanja
 kouteki
 Boltz
 Aleksic
+unconstructive
+de
+Testnet4's
+facto
 kanban
 kanban-style
 gnolang
