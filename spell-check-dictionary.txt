@@ -132,3 +132,7 @@ unconstructive
 de
 Testnet4's
 facto
+kanban
+kanban-style
+gnolang
+Todo
