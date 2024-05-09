@@ -78,6 +78,7 @@ hodge-podge
 jibber-jabber
 licensable
 linter
+linters
 natively
 npm-like
 onboarding
@@ -136,3 +137,16 @@ kanban
 kanban-style
 gnolang
 Todo
+bikeshed
+aesthetical
+se
+codeowner
+codeowners
+CODEOWNERS
+gno-core-tech
+timezones
+triager
+triagers
+co-triager
+co-triagers
+UI

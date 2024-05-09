@@ -14,9 +14,9 @@ A few tips to review effectively:
     - Don't feel that you need to make a fully in-depth review and that you are stupid because you don't understand it at first glance. Giving the full context of the pull request is the responsibility of the author, together with writing documentation and tests.
     - If a PR lacks sufficient explanation of what has been changed, asking the author to explain themselves is perfectly acceptable.
 - Prefer reaching consensus over voting.
-    - Adopting the "Proposals > Discussions > Feelings", try to reach consensus when in conflict over a code change. This means either trying to convince each other using objective metrics, or trying to find a middleground solution that can satisfy both point of views.
+    - Adopting the "Proposals > Discussions > Feelings", try to reach consensus when in conflict over a code change. This means either trying to convince each other using objective metrics, or trying to find a middle ground solution that can satisfy both point of views.
 - Don't [bikeshed](https://bikeshed.com/).
-    - Creating long-winded discussions on trivial topics is really common. Try to recognise when the change you're requesting relates to an objective impact or is purely esthetical.
+    - Creating long-winded discussions on trivial topics is really common. Try to recognize when the change you're requesting relates to an objective impact or is purely aesthetical.
     - For code formatting and practices, prefer introducing linters and formatting rules separately rather than discussing them in a PR.
 - Reviews are a way to learn.
     - Don't be afraid to review components of code you don't have full knowledge about. It can help you get better knowledge of how that component works.
@@ -38,12 +38,12 @@ other stakeholders.)
 The agenda of the review meeting is prepared by adding a PR to the ["Review
 Meeting"](https://github.com/orgs/gnolang/projects/4/views/1) project, in the
 "Agenda" column. Anyone can add PRs to this agenda. Who is in charge of [leading
-the review meeting](./pr-triage.md) should proceed to prioritise the agenda:
+the review meeting](./pr-triage.md) should proceed to prioritize the agenda:
 
 - PRs which need quick rounds of consensus from the core team can be tackled
 	first; mostly if it is expected that any arising discussions will take less
 	than 5 minutes.
-- PRs which need "longer" conversations should be tackled next; but prioritising
+- PRs which need "longer" conversations should be tackled next; but prioritizing
 	those that are felt as the most pressing and urgent issues, either because
 	of a pending deadline or because they're blocking other, significant work.
 
