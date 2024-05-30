@@ -73,16 +73,6 @@ the locally cloned gno repo. For example:
 gno test --root-dir /Users/zmilos/Work/gno path/to/package
 ```
 
-## Running the linter
-
-We use the [`golangci-lint` linter](https://golangci-lint.run/usage/install/#local-installation) for both our CI and
-local linting. Once you ensure it is installed, run the following
-command:
-
-```bash
-make lint 
-```
-
 ## Clearing out local data
 
 As the local blockchain node runs, it creates on-disk temporary storage. To clear these subdirectories, run the
