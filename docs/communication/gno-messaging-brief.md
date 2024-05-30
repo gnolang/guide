@@ -50,7 +50,7 @@
 > - *What additional features or facts does the target need to know about to make a decision?*
 > - *May include stats and claims*
 
-* Experience building [Yaegi](https://traefik.io/blog/announcing-yaegi-263a1e2d070a/) - a popular Go intepreter
+* Experience building [Yaegi](https://traefik.io/blog/announcing-yaegi-263a1e2d070a/) - a popular Go interpreter
 * Fully deterministic implementation of Go
 * Turing complete
 
