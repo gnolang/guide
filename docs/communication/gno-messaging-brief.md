@@ -3,7 +3,7 @@
 
 - Product name: Gno
 - Brief owner: Nemanja Aleksić
-- Last updated: 2024-05-30
+- Last updated: 2024-05-31
 
 # Target info
 
@@ -34,25 +34,26 @@
 > * *What is the single, core customer benefit that is the essence of the product’s positioning?* 
 > * *The benefit should be about the life improving impact for the target rather than a fact about the product.*
 
-**Gno, a new programming language, is an interpreted and fully-deterministic implementation of Go, designed to build succinct and composable applications using a custom-built virtual machine (VM) for auto-persistence and run-time logic.**
+**Gno is a next-generation VM/interpreter that runs a variant of Go, implemented purely in Go. Designed to run deterministically to provide perfect replication across different machines.**
 
 ## Reasons to Believe
 
 > - *What 1-3 proof points that are tightly linked to the benefit best persuade the target to believe they will achieve benefit?*
 
-1. **Transparent and timeless code**: Gno embodies open source principles, allowing for easy sharing, auditing, and reuse of code by the Gno community at any time.
-2. **Extend Go with Gno**: Gno allows Go developers to build on their existing Go expertise while exploring new paradigms in decentralized application development.
-3. **Multi-user Language Functionality**: Gno facilitates the manipulation of Go objects by multiple individuals to perform operations that change the object’s state, behavior, or properties. 
-
+1. **Determinism** - perfect replication across different machines
+2. **Software transactional memory (STM)** - roll back function calls
+3. **Auto-persistence** - commit/read runtime state to/from disk
 
 ## Supporting Features or Other Secondary Info
 
 > - *What additional features or facts does the target need to know about to make a decision?*
 > - *May include stats and claims*
 
+* Embeddable - easy to import pure Go VM library
+* Sandbox - run untrusted code with granular CPU, storage, memory limits
+* Multi-user OS - Go/Gno language based (operating) system
+* Simple - intuitive reference impl base for language experiments
 * Experience building [Yaegi](https://traefik.io/blog/announcing-yaegi-263a1e2d070a/) - a popular Go interpreter
-* Fully deterministic implementation of Go
-* Turing complete
 
 ## Barriers to Purchase
 
@@ -72,7 +73,7 @@
 
 > Micro segments are groups among the target segment that have unique wants and needs.
 
-## Expert Go Developers
+## Expert Go Developers - Primary
 
 ### Micro-segment Descriptor
 
@@ -96,7 +97,7 @@ Go expert, looking for solutions to their business
 
 We’re looking for contributors to help us steer the project in the direction that’s relevant to their use case
 
-## Go Community Member
+## Go Community Member - Secondary
 
 ### Micro-segment Descriptor
 
@@ -119,7 +120,7 @@ Desire to join a novel project on a ground level
 
 We’re looking for contributors who will join the community and help us with the project.
 
-## Go + Web3 developer
+## Go + Web3 developer - Terciary
 
 ### Micro-segment Descriptor
 
@@ -136,6 +137,7 @@ Go developer with web3 experience
 * Go developer who built something on blockchain or expressed interest in blockchain development
 * Tried writing smart contracts in Rust or Solidity
 * Not interested in just one specific blockchain (e.g. Etherium, Cardano)
+* Very small user base
 
 
 ### Highlighted Benefit
