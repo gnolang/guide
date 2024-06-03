@@ -159,7 +159,7 @@ Go developer with web3 experience
 
 **Q:** What is Gnora?
 
-**A:** A blockchain-less GnoVM for edge Computing on trusted, decentralized communities that we plan to demo at GopherCon EU & US. [Learn more](https://gnora.gno.land)
+**A:** A blockchain-less GnoVM for edge Computing on trusted, decentralized communities that we plan to demo at GopherCon EU & US. [Learn more](https://gno.land/gophercon24)
 
 ---
 
