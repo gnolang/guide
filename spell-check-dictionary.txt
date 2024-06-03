@@ -106,6 +106,21 @@ dApp
 Berty
 Dev
 devs
+Aleksić
+composable
+Yaegi
+interpreter
+TinyGo
+IoT
+web3
+Etherium
+Cardano
+Gnora
+GopherCon
+VM
+tradeoffs
+Gno-based
+backend
 roadmap
 Jae's
 OKR
@@ -136,3 +151,5 @@ kanban
 kanban-style
 gnolang
 Todo
+impl
+untrusted
